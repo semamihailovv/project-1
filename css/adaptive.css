@@ -504,7 +504,7 @@
             width: 100%;
         }
         .product-card-header-offer, .product-card-header-promo {
-            font-size: 10px;
+            font-size: 9px;
         }
         .product-card-preTitle{
             font-size: unset;
@@ -514,14 +514,6 @@
         }
         .product-card-property{
             font-size: unset;
-        }
-        .product-card-button{
-            padding-left: 0;
-            padding-right: 0;
-            text-wrap: nowrap;
-            font-size: 11px;
-             width: 100%;
-            font-size: 10px;
         }
         .product-card-footer-menu svg{
             width: 20px;
@@ -534,6 +526,14 @@
             width: 32px;
             height: 32px;
         }        
+    }
+    .product-card-button{
+        padding-left: 0;
+        padding-right: 0;
+        text-wrap: nowrap;
+        font-size: 11px;
+        width: 100%;
+        font-size: 10px;
     }
     .cta-box-type-3 .container{
         flex-direction: column;
