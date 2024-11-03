@@ -533,7 +533,7 @@ input{
     font-family: 'Montserrat-SemiBold',sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: clamp(9px, 1.2vw, 12px);
+    font-size: clamp(9px, 1vw, 11px);
     line-height: 150%;
     letter-spacing: -0.011em;
 }
