@@ -230,7 +230,6 @@ input{
     box-sizing: border-box;
     width: 270px;
     padding: 19px 21px 21px 21px;
-    box-shadow: 2px 0px 10px 1px rgba(144, 200, 235, 0.1);
 }
 .close-catalog{
     cursor: pointer;
@@ -247,6 +246,7 @@ input{
     z-index: 10;
     background-color: #13181E;
     height: 100%;
+    box-shadow: 2px 0px 10px 1px rgba(144, 200, 235, 0.1);
 }
 .index-catalog-window{
     position: unset;
@@ -1626,6 +1626,7 @@ input{
     margin-bottom: 20px;
 }
 .product-description {   
+    box-sizing: border-box;
     background-color: #262E37;
     border-radius: 50px;
     padding: 37px 40px;
@@ -1807,7 +1808,9 @@ input{
 .account-breadcrums{
      margin-bottom: 55px;
 }
-
+.account-box-item.account-box-item_current{
+    background: #90C8EB ;
+}
 .account-box-item{
     cursor: pointer;
     box-sizing: border-box;
@@ -1998,6 +2001,7 @@ input{
 }
 
 .accordion label {
+    box-sizing: border-box;
     border-radius: 15px;
     padding: 15px 35px;
     background-color: #262E37;
@@ -2028,7 +2032,6 @@ input{
     color: #555;
     margin-bottom: 15px;
     border-radius: 15px;
-    height: 45px;
 
     font-family: 'Montserrat-Regular',sans-serif;
     font-style: normal;
@@ -2037,13 +2040,13 @@ input{
     line-height: 24px;
     color: #262E37;
     margin-bottom: 20px;
-    height: 55px;
+    min-height: 55px;
 }
 
 .accordion input[type="radio"]:checked + label + .content {
     display: flex;
     align-items: center;
-
+    overflow: scroll;
 }
 .accordion input[type="radio"]:checked + label img {
     transform: rotate(180deg);

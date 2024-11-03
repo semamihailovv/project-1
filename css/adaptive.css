@@ -286,7 +286,6 @@
         width: 100%;
     }
     .account-box-item{
-        background-color: #90C8EB;
        justify-content: flex-start;
        padding-left: 20px;
        padding-right: 20px;
@@ -337,6 +336,13 @@
     }
     .basket-container .container{
         flex-direction: column;
+    }
+    .account-bonuses-container{
+        width: 100%;
+        padding: 20px;
+    }
+    .account-bonuses-text{
+        font-size: 16px;
     }
 }
     
@@ -740,6 +746,96 @@
         max-width: 286px;
         margin: 0 auto;
     }
+    .thumbnail:last-child{
+        display: none;
+    }
+    .thumbnail:nth-last-of-type(2){
+        display: none;
+    }
+    .price{
+        font-size: 20px;
+    }
+    .add-to-cart, .buy-now{
+        font-size: 15px;
+        height: 40px;
+    }
+    .product-delivery-options-content{
+        font-size: 16px;
+        display: grid;
+        display: grid;
+        grid-template-columns: 0.2fr 1fr; 
+        grid-template-rows: auto auto;  
+        gap: 10px;                      
+    }
+    .product-delivery-options-content > p{
+        margin-left: 0;
+    }
+    .product-delivery-options-content img{
+        margin-right: 12px;
+    }
+    .hide-mobile{
+        display: none;
+    }
+
+      
+    .product-delivery-item-1 {
+     grid-row: span 2; 
+    }
+      
+    .product-delivery-item-2 {
+    grid-column: 2;   
+    }
+      
+    .product-delivery-item-3 {
+     grid-column: 2;    
+    }
+
+    .product-description-header{
+        display: block;
+
+    }
+    .product-description{
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .product-description-button{
+        max-width: unset;
+        margin-bottom: 10px;
+        justify-content: flex-start;
+        padding: 11px 19px;
+        position: relative;
+        height: 45px;
+        border-radius: 10px;
+    }
+    .product-description-button::after {
+        position: absolute;
+        content: url(../images//arrow-down-no-line.svg);
+        top: calc(50% - 8px);
+        right: 19px;
+    }
+    .product-description-body p, .product-description-footer p{
+        font-size: 16px;
+    }
+    .leave-feedback{
+        font-size: 15px;
+        height: 35px;
+    }
+    .accordion .content{
+        padding: 15px 23px;
+    }
+    .accordion label{
+        height: 55px;
+        font-size: 16px;
+    }
+    .action-items{
+        grid-template-columns: 1fr;
+    }
+    .account-box-item{
+        height: 50px;
+        font-family: 'Montserrat-Medium',sans-serif;
+        font-size: 15px;
+    }
+
 
 }
 
