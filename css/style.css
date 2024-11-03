@@ -515,7 +515,7 @@ input{
     column-gap: 8px;
 }
 .product-card-header-promo{
-    max-width: 90px;
+    max-width: 100px;
 }
 .product-card-header-offer,
 .product-card-header-promo{
@@ -627,6 +627,7 @@ input{
     font-size: 12.0063px;
     line-height: 150%;
     letter-spacing: -0.011em;
+    min-width: 176px;
 }
 
 /*additional-boxes*/
@@ -2474,6 +2475,7 @@ input{
 /* mobile-index-nav */
 
 .mobile-index-nav{
+    display: none;
     left: 0;
     bottom: 0;
     position: fixed;

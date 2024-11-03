@@ -695,6 +695,9 @@
         max-width: unset;
     }
 
+    .mobile-index-nav{
+        display: block;
+    }
 
 }
 
