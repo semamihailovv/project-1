@@ -122,6 +122,8 @@
     }
     .additional-box-button{
         width: 100%;
+        max-width: 267px;
+        margin: 0 auto;
     }
     .index-catalog-window{
         position: absolute;
@@ -130,6 +132,10 @@
         top: 0;
         z-index: 10;
         background-color: #13181E;
+
+        .close-catalog{
+            display: block;
+        }
     }
     .index-main{
         width: 100%;
@@ -378,6 +384,8 @@
         width: 259px;
         padding: 0;
         height: 35px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .footer-contacts{
         order:1;
@@ -520,9 +528,169 @@
             width: 32px;
             height: 32px;
         }
+        
     }
-    
+    .cta-box{
+        padding: 0;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        max-height: unset;
+        text-align: center;
+    }
+    .cta-box-content{
+        width: 100%;
+    }
+    .cta-box-image{
+        width: 100%;
+    }
+    .cta-box-image img{
+        width: 100%;
+        max-width: 270px;
+        top: 0;
+        left: calc(50% - 135px);
+    }
+    .cta-box-button{
+        margin: 0 auto;
+    }
+    .cta-box .container{
+        column-gap: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .product-card-header-offer, .product-card-header-promo{
+        font-size: 12px;
+    }
+
+    .header{
+        display: none;
+    }
+
+    .search-box .logo{
+        display: none;
+    }
+    .search-box .catalog-button p{
+        display: none;
+    }
+    .search-box .catalog-button img{
+        width: 15px;
+        height: 11px;
+        max-width: unset;
+    }
+    .navigation-item.navigation-item-hide{
+        display: none;
+    }
+    .navigation-item-link svg{
+        height: 18px;
+    }
+    .navigation-items{
+        column-gap: 10px;
+    }
+    .search-input{
+        height: 30px;
+    }
+    .catalog-button{
+        width: 40px;
+        height: 30px;
+    }
+
+    .main-slide-container{
+       flex-direction: column;
+       padding-bottom: 140px;
+    }
+    .main-slide-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-slide-title,
+    .main-slide-text{
+        text-align: center;
+    }
+    .main-slide-image{
+        margin-top: -390px;
+    }
+    .main-slide-text{
+        margin-bottom: 370px;
+    }
+    .main-slide-button{
+        margin: 0 auto;
+    }
+    .popular-category-item{
+        height: 60px;
+    }
+    .popular-category-item-text{
+        font-size: 10px;
+    }
+    .popular-category-items{
+        column-gap: 6px;
+    }
+    .main-content-title{
+        font-size: 20px;
+    }
+    .post-catalog{
+        position: relative;
+    }
+    .post-catalog::after{
+        content: "";
+        width: 80px;
+        height: 35px;
+        background: rgba(19, 24, 30, 0.6);
+        filter: blur(10px);
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .search-input{
+        font-size: 10px;
+        padding: 7.5px 10px;
+    }
+    .search-input::placeholder{
+        font-size: 10px;
+        right: 10px;
+    }
+    .search-form img{
+        width: 12px;
+        height: 12px;
+    }
+    .post-catalog-item-link{
+        font-family: 'Montserrat-Regular',sans-serif;
+    }
+    .additional-boxes .container{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .additional-box-title{
+        font-family :'Montserrat-SemiBold',sans-serif
+    }
+
+    .popular-brands-items{
+        display: flex;
+        overflow: scroll;
+        scrollbar-width: none;
+    }
+    .popular-brands-items::-webkit-scrollbar {
+        display: none; 
+    }
+
+    .popular-brands-item{
+        padding: 0 40px;
+        max-width: 215px;
+        height: 75px;
+        column-gap: 13px;
+        
+    }
+
+    .popular-brands-item img{
+        width: 135px;
+        max-width: unset;
+    }
+
+
 }
+
 
 
 @media screen and (max-width:500px){
@@ -538,7 +706,27 @@
     .order-form-inputs{
         grid-template-columns: 1fr;
     }
+
+}
+@media screen and (max-width:425px){
+    .main-slide-image{
+        margin-top: -360px;
+    }
+    .main-slide-text{
+        margin-bottom: 340px;
+    }
+    .main-slide-container{
+        flex-direction: column;
+        padding-bottom: 150px;
+     }
+     
 }
 @media screen and (max-width:375px){
-
+    .product-card-header-offer, .product-card-header-promo {
+        font-size: 11px;
+        text-wrap: nowrap;
+    }
+    .product-card-button{
+        font-size: 10px;
+    }
 }
