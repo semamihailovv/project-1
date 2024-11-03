@@ -510,6 +510,7 @@
             font-size: unset;
         }
         .product-card-button{
+            text-wrap: nowrap;
             font-size: 12px;
              width: 100%;
             font-size: 10px;
@@ -524,8 +525,17 @@
         .product-card-footer-menu a:last-child{
             width: 32px;
             height: 32px;
-        }
-        
+        }        
+    }
+    .cta-box-type-3 .container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .cta-box-type-3-button{
+        margin-top: 25px;
+        font-size: 15px;
+        height: 35px;
+        max-width: 270px;
     }
     .cta-box{
         padding: 0;
@@ -548,6 +558,7 @@
     }
     .cta-box-button{
         margin: 0 auto;
+        text-wrap: nowrap;
     }
     .cta-box .container{
         column-gap: 0;
@@ -697,6 +708,37 @@
 
     .mobile-index-nav{
         display: block;
+    }
+
+    .cta-box-type-2-button{
+        right: unset;
+        top: unset;
+        bottom: -57px;
+        left: calc(50% - 135px);
+    }
+    .cta-box-type-2{
+        max-height: unset;
+        padding-bottom: 97px;
+    }
+    .cta-box-type-2-input{
+        max-height: 44px;
+        font-size: 14px;
+    }
+    .cta-box-type-2-input::placeholder{
+        font-size: 14px;
+    }
+    .additional-box-button{
+        padding: 0;
+    }
+    .order-form-title{
+        text-align: center;
+        font-size: 16px;
+        font-family: 'Montserrat-Medium',sans-serif;
+    }
+    .order-total-button{
+        height: 35px;
+        max-width: 286px;
+        margin: 0 auto;
     }
 
 }
