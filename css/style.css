@@ -2473,9 +2473,10 @@ input{
     bottom: 0;
     position: fixed;
     width: 100%;
-    height: 66px;
+    height: 81px;
     box-sizing: border-box;
     padding: 12px 28px;
+    padding-bottom: 27px;
     background: #262E37;
     box-shadow: 2px 0px 10px 1px rgba(144, 200, 235, 0.1);
     border-radius: 11px;
