@@ -516,6 +516,8 @@
             font-size: unset;
         }
         .product-card-button{
+            padding-left: 0;
+            padding-right: 0;
             text-wrap: nowrap;
             font-size: 11px;
              width: 100%;
