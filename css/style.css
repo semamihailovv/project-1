@@ -329,6 +329,7 @@ input{
     justify-content: space-between;
     column-gap: 20px;
     scrollbar-width: none;
+    text-wrap: nowrap;
 }
 .post-catalog-items::-webkit-scrollbar {
     display: none; 
